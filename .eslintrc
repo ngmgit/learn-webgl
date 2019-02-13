@@ -1,13 +1,19 @@
 {
   "env": {
     "browser": true,
-    "node": true
+    "node": true,
+    "es6": true
   },
   "parserOptions": {
     "ecmaVersion": 2017,
     "sourceType": "module"
   },
+  "extends": "airbnb-base",
   "rules": {
-    "semi": 2
+    "semi": 2,
+    "func-names": "off",
+    "no-plusplus": "off",
+    "comma-dangle": "off",
+    "import/prefer-default-export": "off"
   }
 }

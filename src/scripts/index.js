@@ -1,10 +1,12 @@
 import '../styles/index.scss';
-import {threeExample} from './DrawCubeWaves';
-let canvas = document.getElementById("test-canvas");
-let gl = canvas.getContext("webgl");
+import threeExample from './DrawCubeWaves';
+
+const canvas = document.getElementById('test-canvas');
+const gl = canvas.getContext('webgl');
 
 if (!gl) {
-  console.log("No webgl");
+  // eslint-disable-next-line no-console
+  console.log('No webgl');
 }
 
 threeExample();
