@@ -11,7 +11,7 @@ let Cubeconfig = {
     speed: 0.15
 };
 
-const maxZPos = -15;
+const maxZPos = 15;
 
 export function threeExample() {
 
