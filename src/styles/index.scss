@@ -1,0 +1,18 @@
+$body-color: blue;
+
+body {
+  color: $body-color;
+
+  .canvas-container {
+    display: flex;
+    justify-content: center;
+  }
+
+  .canvas-hide {
+    display: none;
+  }
+
+  canvas {
+    border: 1px solid grey;
+  }
+}
