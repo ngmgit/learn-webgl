@@ -1,30 +1,3 @@
-# Webpack Frontend Starterkit
+Fun 3D application in threejs:
 
-A lightweight foundation for your next webpack based frontend project.
-
-
-### Installation
-
-```
-npm install
-```
-
-### Start Dev Server
-
-```
-npm start
-```
-
-### Build Prod Version
-
-```
-npm run build
-```
-
-### Features:
-
-* ES6 Support via [babel](https://babeljs.io/) (v7)
-* SASS Support via [sass-loader](https://github.com/jtangelder/sass-loader)
-* Linting via [eslint-loader](https://github.com/MoOx/eslint-loader)
-
-When you run `npm run build` we use the [mini-css-extract-plugin](https://github.com/webpack-contrib/mini-css-extract-plugin) to move the css to a separate file. The css file gets included in the head of the `index.html`.
+![Cube Waves](https://user-images.githubusercontent.com/10939602/52712402-7d0df500-2fba-11e9-8fe3-feb8ed5ed391.gif)
