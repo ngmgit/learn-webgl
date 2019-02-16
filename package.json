@@ -51,6 +51,8 @@
   },
   "dependencies": {
     "@babel/polyfill": "^7.0.0",
+    "es6-tween": "^5.3.1",
+    "p5": "^0.7.3",
     "three": "^0.101.1"
   }
 }
